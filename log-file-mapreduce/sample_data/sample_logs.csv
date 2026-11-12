@@ -1,0 +1,651 @@
+record_id,timestamp,log_level,service,source_ip,message
+1,2026-03-10 08:00:19,INFO,user-api,192.168.1.13,Order #ORD-1779 successfully placed and confirmed
+2,2026-03-10 08:00:35,INFO,notification-worker,10.0.4.100,User authentication succeeded for username='usr_3682' from IP=10.0.4.100
+3,2026-03-10 08:00:43,WARNING,inventory-db,192.168.1.81,Memory consumption near warning threshold (78% of 8GB container limit)
+4,2026-03-10 08:01:08,INFO,notification-worker,10.0.4.114,Order #ORD-3627 successfully placed and confirmed
+5,2026-03-10 08:01:24,INFO,payment-gateway,192.168.1.58,Scheduled billing report job started for tenant_9991
+6,2026-03-10 08:02:27,ERROR,payment-gateway,192.168.1.78,ERROR: Connection timed out after 30000ms connecting to redis://cache-node-03:6379
+7,2026-03-10 08:03:42,DEBUG,cache-cluster,192.168.1.47,Evaluating feature flag 'fast_checkout_v2' for tenant_171: ENABLED
+8,2026-03-10 08:04:24,ERROR,inventory-db,192.168.1.20,ERROR: SocketTimeoutException: Read timed out during batch data sync
+9,2026-03-10 08:05:27,INFO,cache-cluster,10.0.4.106,Scheduled billing report job started for tenant_3532
+10,2026-03-10 08:05:41,DEBUG,order-processor,10.0.4.102,"Garbage collection cycle completed in 34ms, freed 258MB heap"
+11,2026-03-10 08:06:14,ERROR,cache-cluster,10.0.4.112,ERROR: Deadlock detected while executing concurrent UPDATE on table 'inventory_items'
+12,2026-03-10 08:06:23,INFO,cache-cluster,10.0.4.128,User authentication succeeded for username='usr_3556' from IP=10.0.4.128
+13,2026-03-10 08:06:55,INFO,analytics-pipeline,10.0.4.108,Service discovery synced 12 healthy replica endpoints
+14,2026-03-10 08:08:08,ERROR,notification-worker,192.168.1.43,ERROR: SocketTimeoutException: Read timed out during batch data sync
+15,2026-03-10 08:08:41,INFO,analytics-pipeline,192.168.1.27,HTTP GET /api/v1/users/1896 returned 200 OK duration=54ms
+16,2026-03-10 08:09:40,INFO,payment-gateway,10.0.4.101,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+17,2026-03-10 08:09:46,WARNING,payment-gateway,10.0.4.112,Rate limit threshold (80%) approached for client API key 'ak_live_8123'
+18,2026-03-10 08:10:11,ERROR,auth-service,192.168.1.68,ERROR: HTTP 404 Resource Not Found for URI: /api/v2/legacy-webhook
+19,2026-03-10 08:10:38,ERROR,payment-gateway,192.168.1.74,ERROR: HTTP 404 Resource Not Found for URI: /api/v2/legacy-webhook
+20,2026-03-10 08:11:08,WARNING,cache-cluster,192.168.1.29,Disk usage on volume /var/data reached 92% threshold
+21,2026-03-10 08:11:59,INFO,user-api,10.0.4.137,Processed batch of 63 message queue events
+22,2026-03-10 08:12:12,INFO,order-processor,10.0.4.122,Service discovery synced 12 healthy replica endpoints
+23,2026-03-10 08:13:11,ERROR,inventory-db,10.0.4.148,ERROR: OAuth2 token refresh failed: invalid_grant - Refresh token has expired
+24,2026-03-10 08:14:03,INFO,analytics-pipeline,192.168.1.66,Processed batch of 30 message queue events
+25,2026-03-10 08:15:18,INFO,inventory-db,192.168.1.39,HTTP GET /api/v1/users/3850 returned 200 OK duration=32ms
+26,2026-03-10 08:16:05,INFO,inventory-db,192.168.1.19,Service discovery synced 12 healthy replica endpoints
+27,2026-03-10 08:17:10,ERROR,analytics-pipeline,192.168.1.41,ERROR: Authentication failed: Invalid JWT signature for token header
+28,2026-03-10 08:18:10,INFO,notification-worker,192.168.1.55,HTTP GET /api/v1/users/1712 returned 200 OK duration=30ms
+29,2026-03-10 08:18:28,INFO,inventory-db,192.168.1.41,Service discovery synced 12 healthy replica endpoints
+30,2026-03-10 08:19:32,INFO,payment-gateway,192.168.1.41,HTTP POST /api/v1/checkout completed with status 201 Created
+31,2026-03-10 08:19:38,ERROR,payment-gateway,10.0.4.149,ERROR: Unauthorized access attempt to /admin/system-diagnostics from IP 10.0.4.149
+32,2026-03-10 08:20:45,ERROR,inventory-db,192.168.1.71,ERROR: Deadlock detected while executing concurrent UPDATE on table 'inventory_items'
+33,2026-03-10 08:21:38,INFO,notification-worker,192.168.1.10,Service discovery synced 12 healthy replica endpoints
+34,2026-03-10 08:22:45,INFO,inventory-db,192.168.1.29,HTTP GET /api/v1/users/9589 returned 200 OK duration=203ms
+35,2026-03-10 08:23:30,DEBUG,auth-service,192.168.1.17,Connection ping acknowledged by worker-1 latency=4ms
+36,2026-03-10 08:24:40,INFO,order-processor,192.168.1.20,User authentication succeeded for username='usr_3953' from IP=192.168.1.20
+37,2026-03-10 08:25:16,DEBUG,auth-service,192.168.1.84,Payload serialized with ProtocolBuffers size=1423 bytes
+38,2026-03-10 08:25:54,INFO,cache-cluster,192.168.1.36,Payment token generated successfully via Stripe gateway
+39,2026-03-10 08:26:57,INFO,payment-gateway,192.168.1.50,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+40,2026-03-10 08:27:29,INFO,user-api,192.168.1.74,Scheduled billing report job started for tenant_1227
+41,2026-03-10 08:28:10,ERROR,analytics-pipeline,192.168.1.30,ERROR: HTTP 404 Resource Not Found for URI: /api/v2/legacy-webhook
+42,2026-03-10 08:29:22,ERROR,user-api,192.168.1.11,ERROR: Deadlock detected while executing concurrent UPDATE on table 'inventory_items'
+43,2026-03-10 08:30:00,WARNING,payment-gateway,192.168.1.24,High CPU utilization alert: node-worker-4 at 90%
+44,2026-03-10 08:30:31,DEBUG,user-api,10.0.4.112,Keep-alive heartbeat sent to cluster coordinator node-6
+45,2026-03-10 08:31:11,INFO,auth-service,192.168.1.15,Order #ORD-4391 successfully placed and confirmed
+46,2026-03-10 08:32:26,DEBUG,notification-worker,10.0.4.115,Executing query cache lookup for key 'user_session_177'
+47,2026-03-10 08:33:18,INFO,order-processor,192.168.1.84,HTTP GET /api/v1/users/5150 returned 200 OK duration=108ms
+48,2026-03-10 08:34:08,WARNING,inventory-db,192.168.1.36,Connection pool acquiring latency spiked to 566ms (>200ms)
+49,2026-03-10 08:34:35,INFO,notification-worker,10.0.4.137,Scheduled billing report job started for tenant_6845
+50,2026-03-10 08:35:14,INFO,payment-gateway,192.168.1.30,HTTP GET /api/v1/users/7811 returned 200 OK duration=71ms
+51,2026-03-10 08:36:03,INFO,inventory-db,192.168.1.49,Processed batch of 162 message queue events
+52,2026-03-10 08:36:43,WARNING,notification-worker,192.168.1.54,Connection pool acquiring latency spiked to 486ms (>200ms)
+53,2026-03-10 08:37:21,DEBUG,payment-gateway,192.168.1.14,Keep-alive heartbeat sent to cluster coordinator node-5
+54,2026-03-10 08:37:40,INFO,inventory-db,192.168.1.59,Payment token generated successfully via Stripe gateway
+55,2026-03-10 08:38:10,INFO,notification-worker,192.168.1.56,Scheduled billing report job started for tenant_5243
+56,2026-03-10 08:38:53,WARNING,user-api,192.168.1.74,Connection pool acquiring latency spiked to 855ms (>200ms)
+57,2026-03-10 08:39:51,WARNING,notification-worker,10.0.4.110,High CPU utilization alert: node-worker-1 at 91%
+58,2026-03-10 08:40:32,WARNING,notification-worker,192.168.1.36,Connection pool acquiring latency spiked to 1154ms (>200ms)
+59,2026-03-10 08:41:42,WARNING,order-processor,192.168.1.70,Rate limit threshold (80%) approached for client API key 'ak_live_6085'
+60,2026-03-10 08:42:15,INFO,inventory-db,10.0.4.128,HTTP GET /api/v1/users/4111 returned 200 OK duration=136ms
+61,2026-03-10 08:43:18,WARNING,inventory-db,192.168.1.63,Memory consumption near warning threshold (78% of 8GB container limit)
+62,2026-03-10 08:43:23,WARNING,payment-gateway,10.0.4.139,Deprecated API endpoint /api/v0/profile accessed by client v1.4
+63,2026-03-10 08:43:59,DEBUG,payment-gateway,10.0.4.142,Payload serialized with ProtocolBuffers size=1427 bytes
+64,2026-03-10 08:45:00,CRITICAL,notification-worker,10.0.4.103,CRITICAL: OutOfMemory: Failed to allocate 512MB contiguous block for image buffer
+65,2026-03-10 08:45:25,DEBUG,analytics-pipeline,10.0.4.120,"Garbage collection cycle completed in 45ms, freed 205MB heap"
+66,2026-03-10 08:46:00,INFO,analytics-pipeline,192.168.1.45,Cache warmup completed: 754 keys loaded into Redis
+67,2026-03-10 08:47:14,INFO,order-processor,192.168.1.20,Payment token generated successfully via Stripe gateway
+68,2026-03-10 08:48:12,DEBUG,cache-cluster,192.168.1.62,Payload serialized with ProtocolBuffers size=1723 bytes
+69,2026-03-10 08:48:19,DEBUG,notification-worker,10.0.4.134,Keep-alive heartbeat sent to cluster coordinator node-4
+70,2026-03-10 08:49:33,DEBUG,inventory-db,10.0.4.127,Keep-alive heartbeat sent to cluster coordinator node-4
+71,2026-03-10 08:50:29,ERROR,order-processor,10.0.4.117,ERROR: Permission denied: User 646 does not hold required role 'BILLING_MANAGER'
+72,2026-03-10 08:50:37,DEBUG,notification-worker,10.0.4.141,Evaluating feature flag 'fast_checkout_v2' for tenant_127: ENABLED
+73,2026-03-10 08:51:41,INFO,auth-service,192.168.1.33,Scheduled billing report job started for tenant_3567
+74,2026-03-10 08:52:34,INFO,notification-worker,192.168.1.45,User authentication succeeded for username='usr_7805' from IP=192.168.1.45
+75,2026-03-10 08:52:45,INFO,cache-cluster,10.0.4.146,User authentication succeeded for username='usr_759' from IP=10.0.4.146
+76,2026-03-10 08:53:15,DEBUG,auth-service,10.0.4.132,"Garbage collection cycle completed in 35ms, freed 406MB heap"
+77,2026-03-10 08:53:47,WARNING,user-api,192.168.1.69,High CPU utilization alert: node-worker-5 at 85%
+78,2026-03-10 08:53:55,DEBUG,user-api,10.0.4.143,Payload serialized with ProtocolBuffers size=2956 bytes
+79,2026-03-10 08:54:31,CRITICAL,user-api,192.168.1.23,CRITICAL: java.lang.OutOfMemoryError: Java heap space exceeded in worker-thread-04
+80,2026-03-10 08:54:41,WARNING,notification-worker,192.168.1.54,Slow SQL query detected (275ms): SELECT * FROM orders WHERE status='PENDING'
+81,2026-03-10 08:54:59,DEBUG,cache-cluster,192.168.1.65,Payload serialized with ProtocolBuffers size=3133 bytes
+82,2026-03-10 08:56:10,DEBUG,user-api,10.0.4.148,Connection ping acknowledged by worker-4 latency=4ms
+83,2026-03-10 08:56:49,ERROR,inventory-db,192.168.1.51,ERROR: Query execution timeout after 30000ms: SELECT * FROM transaction_ledger
+84,2026-03-10 08:57:51,DEBUG,analytics-pipeline,192.168.1.41,Evaluating feature flag 'fast_checkout_v2' for tenant_488: ENABLED
+85,2026-03-10 08:58:37,INFO,analytics-pipeline,192.168.1.33,Cache warmup completed: 1320 keys loaded into Redis
+86,2026-03-10 08:59:17,DEBUG,auth-service,192.168.1.81,"Garbage collection cycle completed in 20ms, freed 432MB heap"
+87,2026-03-10 08:59:52,DEBUG,analytics-pipeline,10.0.4.113,Payload serialized with ProtocolBuffers size=1035 bytes
+88,2026-03-10 09:00:48,INFO,inventory-db,10.0.4.113,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+89,2026-03-10 09:01:37,INFO,cache-cluster,192.168.1.64,Service discovery synced 12 healthy replica endpoints
+90,2026-03-10 09:01:57,INFO,inventory-db,10.0.4.117,HTTP POST /api/v1/checkout completed with status 201 Created
+91,2026-03-10 09:02:37,ERROR,user-api,10.0.4.117,ERROR: OAuth2 token refresh failed: invalid_grant - Refresh token has expired
+92,2026-03-10 09:03:28,INFO,user-api,192.168.1.32,HTTP POST /api/v1/checkout completed with status 201 Created
+93,2026-03-10 09:04:43,DEBUG,order-processor,192.168.1.47,Payload serialized with ProtocolBuffers size=2050 bytes
+94,2026-03-10 09:05:49,INFO,cache-cluster,192.168.1.66,HTTP GET /api/v1/users/4236 returned 200 OK duration=235ms
+95,2026-03-10 09:06:02,INFO,analytics-pipeline,192.168.1.61,HTTP GET /api/v1/users/2585 returned 200 OK duration=53ms
+96,2026-03-10 09:06:45,INFO,inventory-db,192.168.1.20,Payment token generated successfully via Stripe gateway
+97,2026-03-10 09:07:56,ERROR,analytics-pipeline,192.168.1.58,ERROR: HTTP 404 Resource Not Found for URI: /api/v2/legacy-webhook
+98,2026-03-10 09:08:55,DEBUG,auth-service,192.168.1.49,Evaluating feature flag 'fast_checkout_v2' for tenant_201: ENABLED
+99,2026-03-10 09:09:10,INFO,inventory-db,192.168.1.30,User authentication succeeded for username='usr_2664' from IP=192.168.1.30
+100,2026-03-10 09:10:15,INFO,auth-service,192.168.1.47,Cache warmup completed: 578 keys loaded into Redis
+101,2026-03-10 09:10:53,INFO,inventory-db,10.0.4.125,HTTP POST /api/v1/checkout completed with status 201 Created
+102,2026-03-10 09:11:16,INFO,auth-service,192.168.1.19,Cache warmup completed: 1265 keys loaded into Redis
+103,2026-03-10 09:11:57,DEBUG,payment-gateway,192.168.1.66,Keep-alive heartbeat sent to cluster coordinator node-5
+104,2026-03-10 09:13:05,DEBUG,payment-gateway,192.168.1.66,Payload serialized with ProtocolBuffers size=233 bytes
+105,2026-03-10 09:13:21,ERROR,auth-service,192.168.1.39,ERROR: HTTP 404 Resource Not Found for URI: /api/v2/legacy-webhook
+106,2026-03-10 09:13:31,DEBUG,order-processor,10.0.4.122,Evaluating feature flag 'fast_checkout_v2' for tenant_552: ENABLED
+107,2026-03-10 09:14:38,DEBUG,payment-gateway,10.0.4.149,Payload serialized with ProtocolBuffers size=3641 bytes
+108,2026-03-10 09:15:03,WARNING,notification-worker,192.168.1.52,Rate limit threshold (80%) approached for client API key 'ak_live_8451'
+109,2026-03-10 09:15:19,INFO,user-api,192.168.1.50,Payment token generated successfully via Stripe gateway
+110,2026-03-10 09:16:33,INFO,notification-worker,192.168.1.69,HTTP POST /api/v1/checkout completed with status 201 Created
+111,2026-03-10 09:17:34,INFO,auth-service,10.0.4.122,HTTP POST /api/v1/checkout completed with status 201 Created
+112,2026-03-10 09:17:54,WARNING,inventory-db,192.168.1.13,Rate limit threshold (80%) approached for client API key 'ak_live_2527'
+113,2026-03-10 09:18:27,DEBUG,payment-gateway,10.0.4.132,Executing query cache lookup for key 'user_session_763'
+114,2026-03-10 09:19:37,INFO,user-api,10.0.4.115,Service discovery synced 12 healthy replica endpoints
+115,2026-03-10 09:20:00,CRITICAL,inventory-db,192.168.1.59,CRITICAL: Kernel OOM-killer terminated process 'analytics-worker' (PID 14209)
+116,2026-03-10 09:20:13,INFO,notification-worker,192.168.1.45,HTTP POST /api/v1/checkout completed with status 201 Created
+117,2026-03-10 09:20:56,ERROR,analytics-pipeline,10.0.4.132,ERROR: gRPC call to 'user-profile-grpc:9090' exceeded deadline (5000ms)
+118,2026-03-10 09:21:45,DEBUG,notification-worker,192.168.1.52,Keep-alive heartbeat sent to cluster coordinator node-2
+119,2026-03-10 09:22:39,INFO,notification-worker,192.168.1.39,Service discovery synced 12 healthy replica endpoints
+120,2026-03-10 09:23:03,INFO,auth-service,192.168.1.73,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+121,2026-03-10 09:23:20,INFO,analytics-pipeline,192.168.1.77,Order #ORD-6817 successfully placed and confirmed
+122,2026-03-10 09:23:34,INFO,user-api,192.168.1.70,Payment token generated successfully via Stripe gateway
+123,2026-03-10 09:24:47,DEBUG,cache-cluster,192.168.1.58,Payload serialized with ProtocolBuffers size=408 bytes
+124,2026-03-10 09:25:22,CRITICAL,user-api,10.0.4.105,CRITICAL: Failed to acquire write lock on database partition 'shard_east_02'
+125,2026-03-10 09:25:39,INFO,payment-gateway,10.0.4.122,Cache warmup completed: 214 keys loaded into Redis
+126,2026-03-10 09:26:21,INFO,cache-cluster,192.168.1.55,Processed batch of 309 message queue events
+127,2026-03-10 09:26:49,INFO,order-processor,192.168.1.31,Payment token generated successfully via Stripe gateway
+128,2026-03-10 09:27:12,DEBUG,analytics-pipeline,192.168.1.39,Payload serialized with ProtocolBuffers size=3819 bytes
+129,2026-03-10 09:27:53,INFO,order-processor,10.0.4.111,Scheduled billing report job started for tenant_9726
+130,2026-03-10 09:28:30,INFO,user-api,192.168.1.68,Payment token generated successfully via Stripe gateway
+131,2026-03-10 09:29:20,ERROR,user-api,192.168.1.83,ERROR: HTTP 500 Internal Server Error: Unhandled NullPointerException in OrderService
+132,2026-03-10 09:30:15,DEBUG,auth-service,192.168.1.45,Evaluating feature flag 'fast_checkout_v2' for tenant_896: ENABLED
+133,2026-03-10 09:30:56,DEBUG,inventory-db,10.0.4.124,Keep-alive heartbeat sent to cluster coordinator node-5
+134,2026-03-10 09:31:18,ERROR,payment-gateway,10.0.4.105,ERROR: Query execution timeout after 30000ms: SELECT * FROM transaction_ledger
+135,2026-03-10 09:32:19,WARNING,cache-cluster,192.168.1.14,Slow SQL query detected (919ms): SELECT * FROM orders WHERE status='PENDING'
+136,2026-03-10 09:32:49,DEBUG,cache-cluster,192.168.1.26,Keep-alive heartbeat sent to cluster coordinator node-4
+137,2026-03-10 09:33:31,ERROR,cache-cluster,10.0.4.120,ERROR: Connection timed out after 30000ms connecting to redis://cache-node-03:6379
+138,2026-03-10 09:33:54,ERROR,inventory-db,10.0.4.121,ERROR: SocketTimeoutException: Read timed out during batch data sync
+139,2026-03-10 09:34:10,INFO,notification-worker,10.0.4.126,HTTP POST /api/v1/checkout completed with status 201 Created
+140,2026-03-10 09:34:48,ERROR,notification-worker,192.168.1.84,ERROR: HTTP 500 Internal Server Error: Unhandled NullPointerException in OrderService
+141,2026-03-10 09:35:22,DEBUG,auth-service,192.168.1.70,Connection ping acknowledged by worker-6 latency=4ms
+142,2026-03-10 09:36:26,DEBUG,user-api,10.0.4.141,Executing query cache lookup for key 'user_session_243'
+143,2026-03-10 09:36:45,CRITICAL,inventory-db,192.168.1.22,CRITICAL: Repeated failed login attempts (5 times) detected for account 'admin_sec'
+144,2026-03-10 09:37:37,DEBUG,notification-worker,10.0.4.110,Evaluating feature flag 'fast_checkout_v2' for tenant_258: ENABLED
+145,2026-03-10 09:38:44,ERROR,notification-worker,10.0.4.103,ERROR: HTTP 500 Internal Server Error: Unhandled NullPointerException in OrderService
+146,2026-03-10 09:39:36,INFO,analytics-pipeline,192.168.1.37,Processed batch of 371 message queue events
+147,2026-03-10 09:40:50,INFO,cache-cluster,10.0.4.140,Cache warmup completed: 1031 keys loaded into Redis
+148,2026-03-10 09:41:06,DEBUG,inventory-db,10.0.4.109,Connection ping acknowledged by worker-3 latency=4ms
+149,2026-03-10 09:41:27,INFO,inventory-db,10.0.4.125,HTTP POST /api/v1/checkout completed with status 201 Created
+150,2026-03-10 09:42:14,WARNING,order-processor,10.0.4.124,Disk usage on volume /var/data reached 90% threshold
+151,2026-03-10 09:42:51,INFO,order-processor,10.0.4.127,HTTP GET /api/v1/users/2259 returned 200 OK duration=18ms
+152,2026-03-10 09:43:37,INFO,order-processor,192.168.1.12,Order #ORD-6997 successfully placed and confirmed
+153,2026-03-10 09:44:42,DEBUG,cache-cluster,192.168.1.67,Executing query cache lookup for key 'user_session_562'
+154,2026-03-10 09:45:53,DEBUG,analytics-pipeline,192.168.1.48,Executing query cache lookup for key 'user_session_162'
+155,2026-03-10 09:46:11,INFO,analytics-pipeline,192.168.1.72,User authentication succeeded for username='usr_5377' from IP=192.168.1.72
+156,2026-03-10 09:46:32,INFO,cache-cluster,192.168.1.45,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+157,2026-03-10 09:47:32,CRITICAL,payment-gateway,192.168.1.22,CRITICAL: Kernel OOM-killer terminated process 'analytics-worker' (PID 14209)
+158,2026-03-10 09:48:32,INFO,inventory-db,192.168.1.67,Service discovery synced 12 healthy replica endpoints
+159,2026-03-10 09:49:17,WARNING,cache-cluster,192.168.1.64,Connection pool acquiring latency spiked to 1221ms (>200ms)
+160,2026-03-10 09:49:32,INFO,notification-worker,192.168.1.21,Scheduled billing report job started for tenant_2231
+161,2026-03-10 09:50:19,INFO,payment-gateway,10.0.4.110,Payment token generated successfully via Stripe gateway
+162,2026-03-10 09:51:09,INFO,inventory-db,192.168.1.23,Service discovery synced 12 healthy replica endpoints
+163,2026-03-10 09:52:01,DEBUG,user-api,192.168.1.24,Payload serialized with ProtocolBuffers size=2641 bytes
+164,2026-03-10 09:52:09,INFO,user-api,10.0.4.102,Cache warmup completed: 112 keys loaded into Redis
+165,2026-03-10 09:52:37,DEBUG,order-processor,10.0.4.136,Payload serialized with ProtocolBuffers size=253 bytes
+166,2026-03-10 09:52:53,INFO,inventory-db,10.0.4.120,Service discovery synced 12 healthy replica endpoints
+167,2026-03-10 09:53:39,ERROR,payment-gateway,10.0.4.124,ERROR: Unauthorized access attempt to /admin/system-diagnostics from IP 10.0.4.124
+168,2026-03-10 09:53:50,INFO,payment-gateway,10.0.4.111,Payment token generated successfully via Stripe gateway
+169,2026-03-10 09:54:29,INFO,payment-gateway,192.168.1.37,User authentication succeeded for username='usr_4740' from IP=192.168.1.37
+170,2026-03-10 09:55:36,INFO,user-api,192.168.1.77,Payment token generated successfully via Stripe gateway
+171,2026-03-10 09:56:19,WARNING,inventory-db,10.0.4.146,Rate limit threshold (80%) approached for client API key 'ak_live_1126'
+172,2026-03-10 09:57:27,INFO,notification-worker,10.0.4.120,Payment token generated successfully via Stripe gateway
+173,2026-03-10 09:58:17,CRITICAL,notification-worker,192.168.1.19,CRITICAL: Failed to acquire write lock on database partition 'shard_east_02'
+174,2026-03-10 09:58:24,CRITICAL,payment-gateway,192.168.1.68,CRITICAL: OutOfMemory: Failed to allocate 512MB contiguous block for image buffer
+175,2026-03-10 09:59:20,INFO,notification-worker,10.0.4.115,Payment token generated successfully via Stripe gateway
+176,2026-03-10 10:00:23,INFO,cache-cluster,10.0.4.131,User authentication succeeded for username='usr_4086' from IP=10.0.4.131
+177,2026-03-10 10:01:35,ERROR,notification-worker,192.168.1.20,ERROR: HTTP 502 Bad Gateway: Upstream payment-gateway timed out after 15000ms
+178,2026-03-10 10:02:22,INFO,order-processor,10.0.4.124,User authentication succeeded for username='usr_8793' from IP=10.0.4.124
+179,2026-03-10 10:03:11,INFO,order-processor,10.0.4.118,Order #ORD-4293 successfully placed and confirmed
+180,2026-03-10 10:03:35,INFO,payment-gateway,10.0.4.122,Service discovery synced 12 healthy replica endpoints
+181,2026-03-10 10:04:37,ERROR,cache-cluster,10.0.4.112,ERROR: HTTP 502 Bad Gateway: Upstream payment-gateway timed out after 15000ms
+182,2026-03-10 10:05:38,INFO,analytics-pipeline,192.168.1.18,Cache warmup completed: 820 keys loaded into Redis
+183,2026-03-10 10:06:47,DEBUG,user-api,192.168.1.19,Executing query cache lookup for key 'user_session_158'
+184,2026-03-10 10:07:03,DEBUG,notification-worker,10.0.4.103,Connection ping acknowledged by worker-5 latency=4ms
+185,2026-03-10 10:07:32,DEBUG,analytics-pipeline,192.168.1.51,Executing query cache lookup for key 'user_session_561'
+186,2026-03-10 10:07:47,INFO,order-processor,192.168.1.74,Service discovery synced 12 healthy replica endpoints
+187,2026-03-10 10:08:12,ERROR,cache-cluster,192.168.1.56,ERROR: gRPC call to 'user-profile-grpc:9090' exceeded deadline (5000ms)
+188,2026-03-10 10:09:00,WARNING,auth-service,10.0.4.111,Connection pool acquiring latency spiked to 925ms (>200ms)
+189,2026-03-10 10:09:41,INFO,order-processor,192.168.1.42,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+190,2026-03-10 10:10:36,INFO,payment-gateway,192.168.1.26,Payment token generated successfully via Stripe gateway
+191,2026-03-10 10:11:48,DEBUG,notification-worker,192.168.1.21,Executing query cache lookup for key 'user_session_471'
+192,2026-03-10 10:12:55,ERROR,inventory-db,192.168.1.34,ERROR: Authentication failed: Invalid JWT signature for token header
+193,2026-03-10 10:13:12,WARNING,auth-service,192.168.1.74,High CPU utilization alert: node-worker-3 at 94%
+194,2026-03-10 10:13:38,INFO,analytics-pipeline,10.0.4.117,Scheduled billing report job started for tenant_3991
+195,2026-03-10 10:14:40,INFO,inventory-db,192.168.1.39,Service discovery synced 12 healthy replica endpoints
+196,2026-03-10 10:15:41,WARNING,user-api,192.168.1.69,Memory consumption near warning threshold (78% of 8GB container limit)
+197,2026-03-10 10:15:52,CRITICAL,analytics-pipeline,10.0.4.107,CRITICAL: java.lang.OutOfMemoryError: Java heap space exceeded in worker-thread-04
+198,2026-03-10 10:17:03,INFO,payment-gateway,10.0.4.133,Order #ORD-4569 successfully placed and confirmed
+199,2026-03-10 10:17:26,INFO,notification-worker,10.0.4.131,Processed batch of 496 message queue events
+200,2026-03-10 10:18:24,DEBUG,notification-worker,192.168.1.16,"Garbage collection cycle completed in 10ms, freed 255MB heap"
+201,2026-03-10 10:19:09,ERROR,payment-gateway,10.0.4.144,ERROR: HTTP 502 Bad Gateway: Upstream payment-gateway timed out after 15000ms
+202,2026-03-10 10:19:31,ERROR,user-api,192.168.1.14,ERROR: Read timeout waiting for response from microservice 'pricing-engine'
+203,2026-03-10 10:20:36,ERROR,auth-service,192.168.1.67,ERROR: Query execution timeout after 30000ms: SELECT * FROM transaction_ledger
+204,2026-03-10 10:21:08,DEBUG,order-processor,10.0.4.131,Evaluating feature flag 'fast_checkout_v2' for tenant_723: ENABLED
+205,2026-03-10 10:21:49,INFO,user-api,192.168.1.40,Processed batch of 426 message queue events
+206,2026-03-10 10:22:52,ERROR,payment-gateway,192.168.1.18,ERROR: Connection timed out after 30000ms connecting to redis://cache-node-03:6379
+207,2026-03-10 10:24:02,WARNING,inventory-db,192.168.1.83,Rate limit threshold (80%) approached for client API key 'ak_live_4941'
+208,2026-03-10 10:25:00,DEBUG,payment-gateway,192.168.1.33,Keep-alive heartbeat sent to cluster coordinator node-5
+209,2026-03-10 10:26:09,INFO,auth-service,192.168.1.80,Service discovery synced 12 healthy replica endpoints
+210,2026-03-10 10:26:46,INFO,auth-service,10.0.4.120,User authentication succeeded for username='usr_5749' from IP=10.0.4.120
+211,2026-03-10 10:27:04,INFO,cache-cluster,10.0.4.123,Scheduled billing report job started for tenant_9045
+212,2026-03-10 10:27:31,ERROR,analytics-pipeline,10.0.4.131,ERROR: Read timeout waiting for response from microservice 'pricing-engine'
+213,2026-03-10 10:27:53,INFO,analytics-pipeline,192.168.1.18,Processed batch of 122 message queue events
+214,2026-03-10 10:28:38,DEBUG,user-api,10.0.4.144,Connection ping acknowledged by worker-6 latency=4ms
+215,2026-03-10 10:29:19,ERROR,auth-service,192.168.1.55,ERROR: HTTP 503 Service Unavailable: Circuit breaker 'inventory-api' is OPEN
+216,2026-03-10 10:29:39,INFO,cache-cluster,10.0.4.127,Payment token generated successfully via Stripe gateway
+217,2026-03-10 10:30:47,INFO,analytics-pipeline,10.0.4.113,HTTP POST /api/v1/checkout completed with status 201 Created
+218,2026-03-10 10:31:02,DEBUG,order-processor,192.168.1.65,Keep-alive heartbeat sent to cluster coordinator node-6
+219,2026-03-10 10:31:46,INFO,notification-worker,192.168.1.67,Service discovery synced 12 healthy replica endpoints
+220,2026-03-10 10:32:46,INFO,auth-service,192.168.1.45,Payment token generated successfully via Stripe gateway
+221,2026-03-10 10:33:11,INFO,auth-service,10.0.4.146,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+222,2026-03-10 10:33:46,INFO,cache-cluster,10.0.4.124,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+223,2026-03-10 10:34:48,INFO,cache-cluster,10.0.4.146,User authentication succeeded for username='usr_9503' from IP=10.0.4.146
+224,2026-03-10 10:35:43,INFO,user-api,192.168.1.50,User authentication succeeded for username='usr_524' from IP=192.168.1.50
+225,2026-03-10 10:36:54,INFO,payment-gateway,192.168.1.59,Cache warmup completed: 684 keys loaded into Redis
+226,2026-03-10 10:38:01,INFO,payment-gateway,192.168.1.35,User authentication succeeded for username='usr_7506' from IP=192.168.1.35
+227,2026-03-10 10:38:17,WARNING,cache-cluster,10.0.4.128,Slow SQL query detected (864ms): SELECT * FROM orders WHERE status='PENDING'
+228,2026-03-10 10:39:08,INFO,inventory-db,192.168.1.75,Processed batch of 424 message queue events
+229,2026-03-10 10:39:16,DEBUG,cache-cluster,192.168.1.56,Connection ping acknowledged by worker-1 latency=4ms
+230,2026-03-10 10:40:11,DEBUG,analytics-pipeline,10.0.4.116,Payload serialized with ProtocolBuffers size=1426 bytes
+231,2026-03-10 10:40:25,WARNING,analytics-pipeline,192.168.1.67,Connection pool acquiring latency spiked to 1379ms (>200ms)
+232,2026-03-10 10:41:25,CRITICAL,auth-service,192.168.1.74,CRITICAL: Kernel OOM-killer terminated process 'analytics-worker' (PID 14209)
+233,2026-03-10 10:42:08,INFO,order-processor,192.168.1.31,Processed batch of 478 message queue events
+234,2026-03-10 10:42:23,DEBUG,inventory-db,192.168.1.42,Connection ping acknowledged by worker-3 latency=4ms
+235,2026-03-10 10:43:36,DEBUG,order-processor,192.168.1.21,Connection ping acknowledged by worker-5 latency=4ms
+236,2026-03-10 10:44:24,CRITICAL,auth-service,10.0.4.132,FATAL: PostgreSQL connection pool exhausted (max_connections=100) at db-primary:5432
+237,2026-03-10 10:44:34,WARNING,user-api,10.0.4.146,Memory consumption near warning threshold (78% of 8GB container limit)
+238,2026-03-10 10:45:40,INFO,notification-worker,192.168.1.41,User authentication succeeded for username='usr_1081' from IP=192.168.1.41
+239,2026-03-10 10:46:46,INFO,inventory-db,192.168.1.69,Order #ORD-5221 successfully placed and confirmed
+240,2026-03-10 10:47:35,INFO,notification-worker,10.0.4.149,Scheduled billing report job started for tenant_8537
+241,2026-03-10 10:48:10,INFO,payment-gateway,192.168.1.69,Processed batch of 45 message queue events
+242,2026-03-10 10:49:04,INFO,notification-worker,10.0.4.135,Order #ORD-5464 successfully placed and confirmed
+243,2026-03-10 10:49:33,DEBUG,order-processor,10.0.4.122,Connection ping acknowledged by worker-4 latency=4ms
+244,2026-03-10 10:49:49,DEBUG,notification-worker,10.0.4.145,"Garbage collection cycle completed in 42ms, freed 244MB heap"
+245,2026-03-10 10:50:30,INFO,analytics-pipeline,192.168.1.73,HTTP GET /api/v1/users/1861 returned 200 OK duration=125ms
+246,2026-03-10 10:51:21,INFO,notification-worker,10.0.4.122,Payment token generated successfully via Stripe gateway
+247,2026-03-10 10:52:12,INFO,user-api,192.168.1.80,HTTP POST /api/v1/checkout completed with status 201 Created
+248,2026-03-10 10:52:32,INFO,payment-gateway,192.168.1.26,Scheduled billing report job started for tenant_9239
+249,2026-03-10 10:53:02,DEBUG,notification-worker,10.0.4.102,Executing query cache lookup for key 'user_session_139'
+250,2026-03-10 10:54:07,INFO,analytics-pipeline,192.168.1.76,HTTP POST /api/v1/checkout completed with status 201 Created
+251,2026-03-10 10:54:52,ERROR,notification-worker,192.168.1.30,ERROR: HTTP 404 Resource Not Found for URI: /api/v2/legacy-webhook
+252,2026-03-10 10:55:40,WARNING,analytics-pipeline,192.168.1.74,Rate limit threshold (80%) approached for client API key 'ak_live_6427'
+253,2026-03-10 10:55:59,WARNING,user-api,192.168.1.63,Disk usage on volume /var/data reached 97% threshold
+254,2026-03-10 10:57:05,INFO,notification-worker,192.168.1.31,Processed batch of 378 message queue events
+255,2026-03-10 10:57:34,INFO,analytics-pipeline,192.168.1.12,Order #ORD-6865 successfully placed and confirmed
+256,2026-03-10 10:58:43,ERROR,analytics-pipeline,10.0.4.124,ERROR: Deadlock detected while executing concurrent UPDATE on table 'inventory_items'
+257,2026-03-10 10:59:54,ERROR,cache-cluster,192.168.1.36,ERROR: gRPC call to 'user-profile-grpc:9090' exceeded deadline (5000ms)
+258,2026-03-10 11:00:39,DEBUG,order-processor,10.0.4.147,Connection ping acknowledged by worker-6 latency=4ms
+259,2026-03-10 11:01:17,INFO,analytics-pipeline,10.0.4.103,Processed batch of 172 message queue events
+260,2026-03-10 11:02:00,WARNING,user-api,10.0.4.123,JWT signature will expire in under 5 minutes for user_5480
+261,2026-03-10 11:02:41,ERROR,notification-worker,192.168.1.25,ERROR: SocketTimeoutException: Read timed out during batch data sync
+262,2026-03-10 11:03:04,INFO,auth-service,192.168.1.47,User authentication succeeded for username='usr_5774' from IP=192.168.1.47
+263,2026-03-10 11:04:10,ERROR,inventory-db,192.168.1.37,ERROR: HTTP 404 Resource Not Found for URI: /api/v2/legacy-webhook
+264,2026-03-10 11:04:49,DEBUG,payment-gateway,192.168.1.27,Connection ping acknowledged by worker-6 latency=4ms
+265,2026-03-10 11:06:01,INFO,inventory-db,192.168.1.38,Payment token generated successfully via Stripe gateway
+266,2026-03-10 11:06:23,INFO,order-processor,192.168.1.10,Service discovery synced 12 healthy replica endpoints
+267,2026-03-10 11:07:09,ERROR,auth-service,192.168.1.46,ERROR: Connection refused: could not connect to PostgreSQL primary host '10.0.4.12:5432'
+268,2026-03-10 11:07:43,CRITICAL,auth-service,192.168.1.78,CRITICAL: Repeated failed login attempts (5 times) detected for account 'admin_sec'
+269,2026-03-10 11:08:10,ERROR,auth-service,10.0.4.144,ERROR: gRPC call to 'user-profile-grpc:9090' exceeded deadline (5000ms)
+270,2026-03-10 11:08:38,ERROR,user-api,10.0.4.144,ERROR: Query execution timeout after 30000ms: SELECT * FROM transaction_ledger
+271,2026-03-10 11:08:56,INFO,cache-cluster,10.0.4.143,HTTP POST /api/v1/checkout completed with status 201 Created
+272,2026-03-10 11:10:05,INFO,user-api,192.168.1.69,User authentication succeeded for username='usr_5517' from IP=192.168.1.69
+273,2026-03-10 11:10:42,INFO,order-processor,10.0.4.116,Scheduled billing report job started for tenant_4933
+274,2026-03-10 11:11:09,ERROR,notification-worker,10.0.4.103,ERROR: High memory leak suspected: Heap usage allocated 96.4% of total RAM
+275,2026-03-10 11:11:25,INFO,payment-gateway,192.168.1.61,Order #ORD-7922 successfully placed and confirmed
+276,2026-03-10 11:11:30,INFO,notification-worker,192.168.1.43,Cache warmup completed: 1273 keys loaded into Redis
+277,2026-03-10 11:11:36,WARNING,cache-cluster,192.168.1.43,Disk usage on volume /var/data reached 85% threshold
+278,2026-03-10 11:12:32,WARNING,user-api,10.0.4.112,Rate limit threshold (80%) approached for client API key 'ak_live_3188'
+279,2026-03-10 11:13:38,WARNING,analytics-pipeline,192.168.1.29,Connection pool acquiring latency spiked to 1374ms (>200ms)
+280,2026-03-10 11:14:10,WARNING,inventory-db,10.0.4.122,Slow SQL query detected (1331ms): SELECT * FROM orders WHERE status='PENDING'
+281,2026-03-10 11:14:29,DEBUG,inventory-db,192.168.1.17,"Garbage collection cycle completed in 25ms, freed 501MB heap"
+282,2026-03-10 11:14:48,WARNING,inventory-db,10.0.4.112,JWT signature will expire in under 5 minutes for user_1911
+283,2026-03-10 11:15:51,DEBUG,notification-worker,192.168.1.26,Executing query cache lookup for key 'user_session_672'
+284,2026-03-10 11:15:58,ERROR,user-api,192.168.1.60,ERROR: Permission denied: User 174 does not hold required role 'BILLING_MANAGER'
+285,2026-03-10 11:16:08,WARNING,cache-cluster,192.168.1.64,Disk usage on volume /var/data reached 84% threshold
+286,2026-03-10 11:17:05,WARNING,order-processor,192.168.1.33,Memory consumption near warning threshold (78% of 8GB container limit)
+287,2026-03-10 11:17:58,WARNING,order-processor,192.168.1.20,Connection pool acquiring latency spiked to 615ms (>200ms)
+288,2026-03-10 11:18:19,ERROR,inventory-db,10.0.4.118,ERROR: Query execution timeout after 30000ms: SELECT * FROM transaction_ledger
+289,2026-03-10 11:19:23,DEBUG,notification-worker,10.0.4.111,"Garbage collection cycle completed in 34ms, freed 241MB heap"
+290,2026-03-10 11:19:52,INFO,payment-gateway,10.0.4.144,Payment token generated successfully via Stripe gateway
+291,2026-03-10 11:20:09,INFO,auth-service,10.0.4.101,HTTP GET /api/v1/users/4109 returned 200 OK duration=204ms
+292,2026-03-10 11:21:10,WARNING,inventory-db,192.168.1.39,Disk usage on volume /var/data reached 86% threshold
+293,2026-03-10 11:21:55,INFO,cache-cluster,192.168.1.83,Order #ORD-8640 successfully placed and confirmed
+294,2026-03-10 11:22:35,DEBUG,order-processor,192.168.1.17,Payload serialized with ProtocolBuffers size=3984 bytes
+295,2026-03-10 11:23:28,WARNING,cache-cluster,10.0.4.125,Memory consumption near warning threshold (78% of 8GB container limit)
+296,2026-03-10 11:24:41,ERROR,inventory-db,192.168.1.70,ERROR: HTTP 502 Bad Gateway: Upstream payment-gateway timed out after 15000ms
+297,2026-03-10 11:25:45,DEBUG,auth-service,10.0.4.142,Payload serialized with ProtocolBuffers size=1122 bytes
+298,2026-03-10 11:26:22,DEBUG,cache-cluster,192.168.1.36,Payload serialized with ProtocolBuffers size=3095 bytes
+299,2026-03-10 11:26:51,INFO,user-api,192.168.1.16,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+300,2026-03-10 11:27:20,DEBUG,inventory-db,10.0.4.127,Keep-alive heartbeat sent to cluster coordinator node-2
+301,2026-03-10 11:27:40,CRITICAL,analytics-pipeline,10.0.4.120,CRITICAL: Kernel OOM-killer terminated process 'analytics-worker' (PID 14209)
+302,2026-03-10 11:28:35,DEBUG,inventory-db,10.0.4.142,Keep-alive heartbeat sent to cluster coordinator node-6
+303,2026-03-10 11:29:19,DEBUG,cache-cluster,192.168.1.43,Payload serialized with ProtocolBuffers size=2051 bytes
+304,2026-03-10 11:30:04,INFO,inventory-db,10.0.4.142,Payment token generated successfully via Stripe gateway
+305,2026-03-10 11:30:27,DEBUG,user-api,192.168.1.12,Connection ping acknowledged by worker-2 latency=4ms
+306,2026-03-10 11:31:14,DEBUG,notification-worker,192.168.1.39,"Garbage collection cycle completed in 40ms, freed 399MB heap"
+307,2026-03-10 11:31:51,ERROR,analytics-pipeline,10.0.4.122,ERROR: gRPC call to 'user-profile-grpc:9090' exceeded deadline (5000ms)
+308,2026-03-10 11:32:17,INFO,cache-cluster,10.0.4.118,HTTP POST /api/v1/checkout completed with status 201 Created
+309,2026-03-10 11:32:29,CRITICAL,auth-service,192.168.1.77,FATAL: PostgreSQL connection pool exhausted (max_connections=100) at db-primary:5432
+310,2026-03-10 11:32:34,ERROR,order-processor,192.168.1.62,ERROR: Authentication failed: Invalid JWT signature for token header
+311,2026-03-10 11:32:58,DEBUG,inventory-db,192.168.1.11,Keep-alive heartbeat sent to cluster coordinator node-6
+312,2026-03-10 11:34:04,INFO,analytics-pipeline,10.0.4.109,HTTP POST /api/v1/checkout completed with status 201 Created
+313,2026-03-10 11:35:16,DEBUG,user-api,10.0.4.117,Keep-alive heartbeat sent to cluster coordinator node-6
+314,2026-03-10 11:36:16,INFO,order-processor,10.0.4.128,User authentication succeeded for username='usr_8691' from IP=10.0.4.128
+315,2026-03-10 11:37:28,INFO,cache-cluster,192.168.1.42,Payment token generated successfully via Stripe gateway
+316,2026-03-10 11:38:04,INFO,inventory-db,10.0.4.114,User authentication succeeded for username='usr_619' from IP=10.0.4.114
+317,2026-03-10 11:38:57,INFO,analytics-pipeline,192.168.1.80,HTTP GET /api/v1/users/2907 returned 200 OK duration=36ms
+318,2026-03-10 11:39:44,ERROR,payment-gateway,192.168.1.82,ERROR: Deadlock detected while executing concurrent UPDATE on table 'inventory_items'
+319,2026-03-10 11:40:16,INFO,analytics-pipeline,10.0.4.140,User authentication succeeded for username='usr_4693' from IP=10.0.4.140
+320,2026-03-10 11:40:25,INFO,cache-cluster,192.168.1.32,Processed batch of 405 message queue events
+321,2026-03-10 11:40:39,DEBUG,order-processor,192.168.1.48,Connection ping acknowledged by worker-5 latency=4ms
+322,2026-03-10 11:41:33,WARNING,order-processor,10.0.4.121,Slow SQL query detected (359ms): SELECT * FROM orders WHERE status='PENDING'
+323,2026-03-10 11:42:07,INFO,payment-gateway,10.0.4.132,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+324,2026-03-10 11:42:15,WARNING,user-api,10.0.4.106,JWT signature will expire in under 5 minutes for user_7150
+325,2026-03-10 11:43:15,INFO,notification-worker,192.168.1.33,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+326,2026-03-10 11:43:30,INFO,order-processor,192.168.1.44,Order #ORD-6483 successfully placed and confirmed
+327,2026-03-10 11:43:46,INFO,user-api,192.168.1.10,Cache warmup completed: 483 keys loaded into Redis
+328,2026-03-10 11:44:46,INFO,notification-worker,192.168.1.67,User authentication succeeded for username='usr_5898' from IP=192.168.1.67
+329,2026-03-10 11:45:32,INFO,notification-worker,10.0.4.135,Payment token generated successfully via Stripe gateway
+330,2026-03-10 11:46:08,WARNING,order-processor,192.168.1.83,High CPU utilization alert: node-worker-5 at 86%
+331,2026-03-10 11:47:16,INFO,payment-gateway,192.168.1.28,Cache warmup completed: 257 keys loaded into Redis
+332,2026-03-10 11:48:07,WARNING,inventory-db,192.168.1.42,JWT signature will expire in under 5 minutes for user_3219
+333,2026-03-10 11:48:50,INFO,notification-worker,192.168.1.10,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+334,2026-03-10 11:49:51,CRITICAL,notification-worker,192.168.1.52,CRITICAL: Kernel OOM-killer terminated process 'analytics-worker' (PID 14209)
+335,2026-03-10 11:50:34,DEBUG,inventory-db,192.168.1.51,"Garbage collection cycle completed in 25ms, freed 213MB heap"
+336,2026-03-10 11:51:41,INFO,inventory-db,10.0.4.148,Cache warmup completed: 1254 keys loaded into Redis
+337,2026-03-10 11:52:11,WARNING,order-processor,10.0.4.100,Disk usage on volume /var/data reached 96% threshold
+338,2026-03-10 11:52:24,WARNING,notification-worker,10.0.4.129,High CPU utilization alert: node-worker-5 at 91%
+339,2026-03-10 11:53:23,INFO,notification-worker,10.0.4.126,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+340,2026-03-10 11:54:32,DEBUG,notification-worker,10.0.4.143,Keep-alive heartbeat sent to cluster coordinator node-6
+341,2026-03-10 11:54:47,WARNING,inventory-db,192.168.1.23,Connection pool acquiring latency spiked to 340ms (>200ms)
+342,2026-03-10 11:55:47,INFO,auth-service,192.168.1.23,Processed batch of 285 message queue events
+343,2026-03-10 11:56:20,INFO,cache-cluster,192.168.1.67,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+344,2026-03-10 11:57:26,INFO,user-api,192.168.1.23,User authentication succeeded for username='usr_2001' from IP=192.168.1.23
+345,2026-03-10 11:58:15,DEBUG,cache-cluster,192.168.1.49,"Garbage collection cycle completed in 35ms, freed 242MB heap"
+346,2026-03-10 11:59:16,INFO,analytics-pipeline,10.0.4.117,Cache warmup completed: 335 keys loaded into Redis
+347,2026-03-10 11:59:23,DEBUG,cache-cluster,10.0.4.133,Evaluating feature flag 'fast_checkout_v2' for tenant_919: ENABLED
+348,2026-03-10 11:59:50,INFO,order-processor,192.168.1.80,Payment token generated successfully via Stripe gateway
+349,2026-03-10 12:00:18,INFO,notification-worker,192.168.1.33,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+350,2026-03-10 12:01:12,INFO,inventory-db,192.168.1.10,User authentication succeeded for username='usr_9559' from IP=192.168.1.10
+351,2026-03-10 12:01:40,INFO,cache-cluster,192.168.1.56,User authentication succeeded for username='usr_4398' from IP=192.168.1.56
+352,2026-03-10 12:02:52,DEBUG,cache-cluster,10.0.4.148,Connection ping acknowledged by worker-3 latency=4ms
+353,2026-03-10 12:03:55,ERROR,order-processor,10.0.4.104,ERROR: HTTP 404 Resource Not Found for URI: /api/v2/legacy-webhook
+354,2026-03-10 12:04:10,INFO,order-processor,10.0.4.111,Processed batch of 113 message queue events
+355,2026-03-10 12:04:33,INFO,notification-worker,192.168.1.75,Order #ORD-9517 successfully placed and confirmed
+356,2026-03-10 12:05:40,DEBUG,order-processor,10.0.4.106,Payload serialized with ProtocolBuffers size=3576 bytes
+357,2026-03-10 12:06:42,CRITICAL,auth-service,10.0.4.104,CRITICAL: Failed to acquire write lock on database partition 'shard_east_02'
+358,2026-03-10 12:07:04,CRITICAL,notification-worker,192.168.1.34,CRITICAL: OutOfMemory: Failed to allocate 512MB contiguous block for image buffer
+359,2026-03-10 12:08:01,INFO,analytics-pipeline,10.0.4.112,Service discovery synced 12 healthy replica endpoints
+360,2026-03-10 12:08:09,INFO,inventory-db,10.0.4.126,Cache warmup completed: 444 keys loaded into Redis
+361,2026-03-10 12:09:12,DEBUG,analytics-pipeline,192.168.1.82,Executing query cache lookup for key 'user_session_686'
+362,2026-03-10 12:10:03,WARNING,auth-service,192.168.1.79,JWT signature will expire in under 5 minutes for user_5055
+363,2026-03-10 12:10:46,INFO,auth-service,10.0.4.136,Scheduled billing report job started for tenant_1525
+364,2026-03-10 12:11:21,CRITICAL,cache-cluster,192.168.1.36,CRITICAL: OutOfMemory: Failed to allocate 512MB contiguous block for image buffer
+365,2026-03-10 12:11:47,WARNING,order-processor,10.0.4.103,Deprecated API endpoint /api/v0/profile accessed by client v1.4
+366,2026-03-10 12:12:13,INFO,user-api,192.168.1.51,Cache warmup completed: 295 keys loaded into Redis
+367,2026-03-10 12:12:35,ERROR,notification-worker,10.0.4.148,ERROR: HTTP 502 Bad Gateway: Upstream payment-gateway timed out after 15000ms
+368,2026-03-10 12:12:56,WARNING,order-processor,192.168.1.41,Deprecated API endpoint /api/v0/profile accessed by client v1.4
+369,2026-03-10 12:13:54,INFO,analytics-pipeline,192.168.1.58,User authentication succeeded for username='usr_6700' from IP=192.168.1.58
+370,2026-03-10 12:14:46,INFO,analytics-pipeline,192.168.1.68,HTTP GET /api/v1/users/1626 returned 200 OK duration=202ms
+371,2026-03-10 12:15:36,WARNING,payment-gateway,10.0.4.133,Memory consumption near warning threshold (78% of 8GB container limit)
+372,2026-03-10 12:16:15,INFO,user-api,192.168.1.51,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+373,2026-03-10 12:17:03,INFO,auth-service,10.0.4.139,Service discovery synced 12 healthy replica endpoints
+374,2026-03-10 12:18:04,ERROR,auth-service,192.168.1.68,ERROR: Read timeout waiting for response from microservice 'pricing-engine'
+375,2026-03-10 12:18:25,INFO,user-api,10.0.4.137,Cache warmup completed: 612 keys loaded into Redis
+376,2026-03-10 12:18:40,INFO,order-processor,192.168.1.57,Cache warmup completed: 286 keys loaded into Redis
+377,2026-03-10 12:18:57,DEBUG,inventory-db,192.168.1.10,"Garbage collection cycle completed in 19ms, freed 329MB heap"
+378,2026-03-10 12:19:03,ERROR,cache-cluster,192.168.1.11,ERROR: Read timeout waiting for response from microservice 'pricing-engine'
+379,2026-03-10 12:20:09,INFO,inventory-db,192.168.1.19,User authentication succeeded for username='usr_1790' from IP=192.168.1.19
+380,2026-03-10 12:20:31,DEBUG,order-processor,192.168.1.58,Evaluating feature flag 'fast_checkout_v2' for tenant_246: ENABLED
+381,2026-03-10 12:20:57,WARNING,cache-cluster,192.168.1.66,High CPU utilization alert: node-worker-4 at 95%
+382,2026-03-10 12:21:14,DEBUG,payment-gateway,192.168.1.27,Payload serialized with ProtocolBuffers size=1142 bytes
+383,2026-03-10 12:21:54,INFO,payment-gateway,10.0.4.107,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+384,2026-03-10 12:22:02,INFO,user-api,10.0.4.133,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+385,2026-03-10 12:22:44,WARNING,auth-service,10.0.4.107,Deprecated API endpoint /api/v0/profile accessed by client v1.4
+386,2026-03-10 12:23:52,DEBUG,payment-gateway,10.0.4.106,Executing query cache lookup for key 'user_session_469'
+387,2026-03-10 12:24:50,WARNING,order-processor,192.168.1.56,Slow SQL query detected (388ms): SELECT * FROM orders WHERE status='PENDING'
+388,2026-03-10 12:25:22,ERROR,auth-service,192.168.1.15,ERROR: SocketTimeoutException: Read timed out during batch data sync
+389,2026-03-10 12:26:31,INFO,notification-worker,10.0.4.123,Payment token generated successfully via Stripe gateway
+390,2026-03-10 12:26:55,INFO,payment-gateway,192.168.1.45,HTTP POST /api/v1/checkout completed with status 201 Created
+391,2026-03-10 12:27:41,INFO,payment-gateway,192.168.1.60,Payment token generated successfully via Stripe gateway
+392,2026-03-10 12:28:41,DEBUG,analytics-pipeline,192.168.1.24,Executing query cache lookup for key 'user_session_416'
+393,2026-03-10 12:29:03,INFO,auth-service,10.0.4.114,Scheduled billing report job started for tenant_8668
+394,2026-03-10 12:29:29,WARNING,order-processor,192.168.1.57,Rate limit threshold (80%) approached for client API key 'ak_live_8034'
+395,2026-03-10 12:30:08,INFO,payment-gateway,192.168.1.77,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+396,2026-03-10 12:30:59,ERROR,analytics-pipeline,192.168.1.17,ERROR: OAuth2 token refresh failed: invalid_grant - Refresh token has expired
+397,2026-03-10 12:31:36,ERROR,payment-gateway,10.0.4.123,ERROR: Deadlock detected while executing concurrent UPDATE on table 'inventory_items'
+398,2026-03-10 12:32:46,ERROR,auth-service,192.168.1.10,ERROR: Deadlock detected while executing concurrent UPDATE on table 'inventory_items'
+399,2026-03-10 12:32:56,INFO,cache-cluster,192.168.1.70,Order #ORD-3032 successfully placed and confirmed
+400,2026-03-10 12:33:54,INFO,cache-cluster,192.168.1.38,Scheduled billing report job started for tenant_4544
+401,2026-03-10 12:34:46,INFO,auth-service,192.168.1.25,HTTP POST /api/v1/checkout completed with status 201 Created
+402,2026-03-10 12:35:27,INFO,user-api,10.0.4.124,HTTP POST /api/v1/checkout completed with status 201 Created
+403,2026-03-10 12:36:09,WARNING,user-api,192.168.1.82,Deprecated API endpoint /api/v0/profile accessed by client v1.4
+404,2026-03-10 12:37:23,INFO,inventory-db,10.0.4.122,Payment token generated successfully via Stripe gateway
+405,2026-03-10 12:37:29,INFO,cache-cluster,10.0.4.146,Payment token generated successfully via Stripe gateway
+406,2026-03-10 12:38:04,ERROR,analytics-pipeline,192.168.1.63,ERROR: OAuth2 token refresh failed: invalid_grant - Refresh token has expired
+407,2026-03-10 12:38:14,CRITICAL,inventory-db,10.0.4.142,CRITICAL: OutOfMemory: Failed to allocate 512MB contiguous block for image buffer
+408,2026-03-10 12:39:06,DEBUG,payment-gateway,192.168.1.68,Connection ping acknowledged by worker-4 latency=4ms
+409,2026-03-10 12:39:18,INFO,order-processor,192.168.1.65,Cache warmup completed: 768 keys loaded into Redis
+410,2026-03-10 12:40:03,INFO,user-api,192.168.1.67,Processed batch of 414 message queue events
+411,2026-03-10 12:40:21,INFO,payment-gateway,192.168.1.29,Service discovery synced 12 healthy replica endpoints
+412,2026-03-10 12:41:11,DEBUG,inventory-db,10.0.4.148,Payload serialized with ProtocolBuffers size=3435 bytes
+413,2026-03-10 12:41:54,INFO,auth-service,10.0.4.130,Scheduled billing report job started for tenant_2530
+414,2026-03-10 12:42:44,WARNING,auth-service,192.168.1.60,Rate limit threshold (80%) approached for client API key 'ak_live_8408'
+415,2026-03-10 12:43:59,DEBUG,payment-gateway,192.168.1.41,"Garbage collection cycle completed in 5ms, freed 95MB heap"
+416,2026-03-10 12:44:29,INFO,notification-worker,10.0.4.130,User authentication succeeded for username='usr_9640' from IP=10.0.4.130
+417,2026-03-10 12:44:36,ERROR,inventory-db,192.168.1.18,ERROR: Read timeout waiting for response from microservice 'pricing-engine'
+418,2026-03-10 12:44:52,INFO,cache-cluster,10.0.4.140,Service discovery synced 12 healthy replica endpoints
+419,2026-03-10 12:45:52,DEBUG,notification-worker,10.0.4.130,Payload serialized with ProtocolBuffers size=1007 bytes
+420,2026-03-10 12:46:20,INFO,user-api,192.168.1.45,Order #ORD-667 successfully placed and confirmed
+421,2026-03-10 12:46:56,DEBUG,user-api,10.0.4.107,Connection ping acknowledged by worker-3 latency=4ms
+422,2026-03-10 12:47:18,DEBUG,inventory-db,192.168.1.63,Connection ping acknowledged by worker-5 latency=4ms
+423,2026-03-10 12:47:25,DEBUG,cache-cluster,192.168.1.58,Payload serialized with ProtocolBuffers size=1718 bytes
+424,2026-03-10 12:48:04,INFO,auth-service,192.168.1.33,Processed batch of 418 message queue events
+425,2026-03-10 12:48:16,DEBUG,analytics-pipeline,10.0.4.128,Connection ping acknowledged by worker-2 latency=4ms
+426,2026-03-10 12:48:51,WARNING,auth-service,192.168.1.44,Deprecated API endpoint /api/v0/profile accessed by client v1.4
+427,2026-03-10 12:49:26,ERROR,cache-cluster,10.0.4.100,ERROR: HTTP 404 Resource Not Found for URI: /api/v2/legacy-webhook
+428,2026-03-10 12:49:34,CRITICAL,cache-cluster,10.0.4.115,CRITICAL: Kernel OOM-killer terminated process 'analytics-worker' (PID 14209)
+429,2026-03-10 12:50:03,DEBUG,analytics-pipeline,10.0.4.132,"Garbage collection cycle completed in 7ms, freed 110MB heap"
+430,2026-03-10 12:50:36,INFO,analytics-pipeline,192.168.1.12,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+431,2026-03-10 12:51:03,INFO,cache-cluster,10.0.4.142,Order #ORD-9711 successfully placed and confirmed
+432,2026-03-10 12:51:22,ERROR,cache-cluster,10.0.4.133,ERROR: HTTP 504 Gateway Timeout while proxying request to third-party shipping API
+433,2026-03-10 12:51:39,INFO,user-api,192.168.1.53,Order #ORD-7257 successfully placed and confirmed
+434,2026-03-10 12:52:24,INFO,cache-cluster,192.168.1.32,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+435,2026-03-10 12:52:45,CRITICAL,auth-service,192.168.1.32,CRITICAL: OutOfMemory: Failed to allocate 512MB contiguous block for image buffer
+436,2026-03-10 12:52:54,CRITICAL,cache-cluster,192.168.1.33,CRITICAL: Kernel OOM-killer terminated process 'analytics-worker' (PID 14209)
+437,2026-03-10 12:53:12,INFO,analytics-pipeline,10.0.4.144,User authentication succeeded for username='usr_3999' from IP=10.0.4.144
+438,2026-03-10 12:53:28,INFO,cache-cluster,10.0.4.130,Cache warmup completed: 238 keys loaded into Redis
+439,2026-03-10 12:54:17,WARNING,payment-gateway,192.168.1.42,Disk usage on volume /var/data reached 94% threshold
+440,2026-03-10 12:55:14,INFO,notification-worker,192.168.1.73,Payment token generated successfully via Stripe gateway
+441,2026-03-10 12:55:47,INFO,analytics-pipeline,192.168.1.30,HTTP GET /api/v1/users/4931 returned 200 OK duration=20ms
+442,2026-03-10 12:56:05,INFO,cache-cluster,192.168.1.19,Payment token generated successfully via Stripe gateway
+443,2026-03-10 12:56:21,WARNING,analytics-pipeline,192.168.1.53,Memory consumption near warning threshold (78% of 8GB container limit)
+444,2026-03-10 12:56:38,ERROR,inventory-db,192.168.1.52,ERROR: SocketTimeoutException: Read timed out during batch data sync
+445,2026-03-10 12:57:19,INFO,inventory-db,192.168.1.48,Payment token generated successfully via Stripe gateway
+446,2026-03-10 12:57:43,INFO,cache-cluster,192.168.1.16,User authentication succeeded for username='usr_4925' from IP=192.168.1.16
+447,2026-03-10 12:58:49,INFO,payment-gateway,192.168.1.35,Order #ORD-4881 successfully placed and confirmed
+448,2026-03-10 12:59:33,DEBUG,notification-worker,10.0.4.125,Evaluating feature flag 'fast_checkout_v2' for tenant_371: ENABLED
+449,2026-03-10 13:00:01,INFO,notification-worker,192.168.1.57,Service discovery synced 12 healthy replica endpoints
+450,2026-03-10 13:00:39,DEBUG,user-api,192.168.1.38,"Garbage collection cycle completed in 11ms, freed 107MB heap"
+451,2026-03-10 13:01:53,DEBUG,inventory-db,192.168.1.62,Payload serialized with ProtocolBuffers size=2942 bytes
+452,2026-03-10 13:02:58,DEBUG,inventory-db,192.168.1.83,Executing query cache lookup for key 'user_session_504'
+453,2026-03-10 13:04:09,INFO,order-processor,10.0.4.127,Service discovery synced 12 healthy replica endpoints
+454,2026-03-10 13:04:30,INFO,notification-worker,192.168.1.15,Payment token generated successfully via Stripe gateway
+455,2026-03-10 13:05:08,INFO,payment-gateway,192.168.1.50,HTTP POST /api/v1/checkout completed with status 201 Created
+456,2026-03-10 13:06:19,WARNING,auth-service,192.168.1.68,Memory consumption near warning threshold (78% of 8GB container limit)
+457,2026-03-10 13:06:36,DEBUG,payment-gateway,10.0.4.143,Executing query cache lookup for key 'user_session_904'
+458,2026-03-10 13:07:25,INFO,notification-worker,10.0.4.137,Service discovery synced 12 healthy replica endpoints
+459,2026-03-10 13:07:52,INFO,notification-worker,192.168.1.45,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+460,2026-03-10 13:08:27,ERROR,analytics-pipeline,192.168.1.16,ERROR: HTTP 500 Internal Server Error: Unhandled NullPointerException in OrderService
+461,2026-03-10 13:09:15,INFO,user-api,10.0.4.129,Service discovery synced 12 healthy replica endpoints
+462,2026-03-10 13:09:58,WARNING,analytics-pipeline,10.0.4.149,Connection pool acquiring latency spiked to 1103ms (>200ms)
+463,2026-03-10 13:10:59,WARNING,notification-worker,192.168.1.37,Connection pool acquiring latency spiked to 1305ms (>200ms)
+464,2026-03-10 13:11:43,INFO,notification-worker,10.0.4.115,HTTP POST /api/v1/checkout completed with status 201 Created
+465,2026-03-10 13:12:13,INFO,auth-service,10.0.4.132,Service discovery synced 12 healthy replica endpoints
+466,2026-03-10 13:12:53,DEBUG,analytics-pipeline,192.168.1.57,Evaluating feature flag 'fast_checkout_v2' for tenant_226: ENABLED
+467,2026-03-10 13:13:55,DEBUG,analytics-pipeline,192.168.1.32,Keep-alive heartbeat sent to cluster coordinator node-3
+468,2026-03-10 13:14:11,INFO,auth-service,192.168.1.46,Order #ORD-9475 successfully placed and confirmed
+469,2026-03-10 13:14:44,INFO,inventory-db,10.0.4.111,Payment token generated successfully via Stripe gateway
+470,2026-03-10 13:14:50,DEBUG,order-processor,192.168.1.70,Connection ping acknowledged by worker-3 latency=4ms
+471,2026-03-10 13:15:34,INFO,user-api,10.0.4.116,Payment token generated successfully via Stripe gateway
+472,2026-03-10 13:16:38,DEBUG,notification-worker,192.168.1.48,Executing query cache lookup for key 'user_session_623'
+473,2026-03-10 13:17:19,DEBUG,payment-gateway,192.168.1.48,Keep-alive heartbeat sent to cluster coordinator node-3
+474,2026-03-10 13:18:02,DEBUG,order-processor,192.168.1.34,"Garbage collection cycle completed in 43ms, freed 270MB heap"
+475,2026-03-10 13:18:24,WARNING,auth-service,10.0.4.117,Rate limit threshold (80%) approached for client API key 'ak_live_7361'
+476,2026-03-10 13:18:33,INFO,inventory-db,192.168.1.84,Processed batch of 421 message queue events
+477,2026-03-10 13:19:23,CRITICAL,user-api,192.168.1.74,CRITICAL: Kernel OOM-killer terminated process 'analytics-worker' (PID 14209)
+478,2026-03-10 13:20:05,INFO,analytics-pipeline,192.168.1.22,Cache warmup completed: 474 keys loaded into Redis
+479,2026-03-10 13:20:52,INFO,payment-gateway,10.0.4.108,Processed batch of 423 message queue events
+480,2026-03-10 13:21:44,DEBUG,user-api,192.168.1.43,Executing query cache lookup for key 'user_session_581'
+481,2026-03-10 13:21:58,DEBUG,inventory-db,192.168.1.70,Evaluating feature flag 'fast_checkout_v2' for tenant_490: ENABLED
+482,2026-03-10 13:22:22,INFO,inventory-db,192.168.1.27,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+483,2026-03-10 13:22:37,DEBUG,cache-cluster,192.168.1.72,"Garbage collection cycle completed in 45ms, freed 93MB heap"
+484,2026-03-10 13:23:17,DEBUG,order-processor,192.168.1.36,"Garbage collection cycle completed in 10ms, freed 130MB heap"
+485,2026-03-10 13:24:16,ERROR,notification-worker,192.168.1.61,ERROR: Connection timed out after 30000ms connecting to redis://cache-node-03:6379
+486,2026-03-10 13:24:25,WARNING,inventory-db,192.168.1.78,Disk usage on volume /var/data reached 92% threshold
+487,2026-03-10 13:24:30,INFO,inventory-db,10.0.4.105,Scheduled billing report job started for tenant_5213
+488,2026-03-10 13:25:39,INFO,user-api,10.0.4.100,HTTP GET /api/v1/users/4985 returned 200 OK duration=89ms
+489,2026-03-10 13:26:51,ERROR,notification-worker,192.168.1.53,ERROR: OAuth2 token refresh failed: invalid_grant - Refresh token has expired
+490,2026-03-10 13:27:41,INFO,inventory-db,10.0.4.121,Payment token generated successfully via Stripe gateway
+491,2026-03-10 13:28:13,DEBUG,auth-service,10.0.4.118,"Garbage collection cycle completed in 28ms, freed 428MB heap"
+492,2026-03-10 13:28:22,WARNING,user-api,192.168.1.58,Disk usage on volume /var/data reached 83% threshold
+493,2026-03-10 13:28:41,INFO,analytics-pipeline,192.168.1.63,HTTP POST /api/v1/checkout completed with status 201 Created
+494,2026-03-10 13:29:12,INFO,auth-service,10.0.4.113,User authentication succeeded for username='usr_8624' from IP=10.0.4.113
+495,2026-03-10 13:29:34,DEBUG,payment-gateway,192.168.1.63,Connection ping acknowledged by worker-1 latency=4ms
+496,2026-03-10 13:30:04,WARNING,inventory-db,10.0.4.102,Deprecated API endpoint /api/v0/profile accessed by client v1.4
+497,2026-03-10 13:30:14,ERROR,analytics-pipeline,192.168.1.80,ERROR: SocketTimeoutException: Read timed out during batch data sync
+498,2026-03-10 13:30:49,WARNING,auth-service,192.168.1.10,Slow SQL query detected (555ms): SELECT * FROM orders WHERE status='PENDING'
+499,2026-03-10 13:31:03,CRITICAL,payment-gateway,10.0.4.117,CRITICAL: Repeated failed login attempts (5 times) detected for account 'admin_sec'
+500,2026-03-10 13:31:41,INFO,auth-service,192.168.1.69,Order #ORD-746 successfully placed and confirmed
+501,2026-03-10 13:32:26,INFO,payment-gateway,192.168.1.64,HTTP GET /api/v1/users/258 returned 200 OK duration=233ms
+502,2026-03-10 13:32:52,ERROR,cache-cluster,192.168.1.52,ERROR: High memory leak suspected: Heap usage allocated 96.4% of total RAM
+503,2026-03-10 13:33:08,INFO,cache-cluster,192.168.1.57,Payment token generated successfully via Stripe gateway
+504,2026-03-10 13:34:14,DEBUG,notification-worker,10.0.4.127,"Garbage collection cycle completed in 13ms, freed 420MB heap"
+505,2026-03-10 13:34:39,ERROR,notification-worker,192.168.1.23,ERROR: gRPC call to 'user-profile-grpc:9090' exceeded deadline (5000ms)
+506,2026-03-10 13:35:07,WARNING,notification-worker,10.0.4.103,Disk usage on volume /var/data reached 86% threshold
+507,2026-03-10 13:36:04,INFO,auth-service,192.168.1.66,Scheduled billing report job started for tenant_302
+508,2026-03-10 13:37:16,ERROR,inventory-db,10.0.4.123,ERROR: HTTP 404 Resource Not Found for URI: /api/v2/legacy-webhook
+509,2026-03-10 13:38:27,INFO,payment-gateway,10.0.4.113,Processed batch of 359 message queue events
+510,2026-03-10 13:39:21,INFO,auth-service,192.168.1.29,Order #ORD-8383 successfully placed and confirmed
+511,2026-03-10 13:39:47,INFO,analytics-pipeline,192.168.1.19,Scheduled billing report job started for tenant_4657
+512,2026-03-10 13:41:02,INFO,notification-worker,10.0.4.107,Processed batch of 247 message queue events
+513,2026-03-10 13:42:04,INFO,analytics-pipeline,192.168.1.21,User authentication succeeded for username='usr_8248' from IP=192.168.1.21
+514,2026-03-10 13:42:22,INFO,notification-worker,192.168.1.61,HTTP POST /api/v1/checkout completed with status 201 Created
+515,2026-03-10 13:43:05,WARNING,inventory-db,10.0.4.138,JWT signature will expire in under 5 minutes for user_4652
+516,2026-03-10 13:44:08,WARNING,analytics-pipeline,192.168.1.52,Connection pool acquiring latency spiked to 483ms (>200ms)
+517,2026-03-10 13:44:13,ERROR,cache-cluster,192.168.1.53,ERROR: HTTP 404 Resource Not Found for URI: /api/v2/legacy-webhook
+518,2026-03-10 13:45:24,INFO,payment-gateway,192.168.1.57,Order #ORD-8167 successfully placed and confirmed
+519,2026-03-10 13:45:42,INFO,inventory-db,192.168.1.42,Payment token generated successfully via Stripe gateway
+520,2026-03-10 13:46:30,INFO,notification-worker,192.168.1.23,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+521,2026-03-10 13:47:33,ERROR,order-processor,10.0.4.109,ERROR: Connection refused: could not connect to PostgreSQL primary host '10.0.4.12:5432'
+522,2026-03-10 13:47:44,ERROR,notification-worker,192.168.1.80,ERROR: Read timeout waiting for response from microservice 'pricing-engine'
+523,2026-03-10 13:48:11,INFO,order-processor,10.0.4.118,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+524,2026-03-10 13:49:09,INFO,inventory-db,10.0.4.102,Scheduled billing report job started for tenant_4919
+525,2026-03-10 13:49:31,ERROR,user-api,192.168.1.62,ERROR: High memory leak suspected: Heap usage allocated 96.4% of total RAM
+526,2026-03-10 13:50:46,INFO,inventory-db,10.0.4.105,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+527,2026-03-10 13:51:07,DEBUG,order-processor,10.0.4.115,Evaluating feature flag 'fast_checkout_v2' for tenant_752: ENABLED
+528,2026-03-10 13:51:57,DEBUG,analytics-pipeline,192.168.1.81,Evaluating feature flag 'fast_checkout_v2' for tenant_827: ENABLED
+529,2026-03-10 13:53:10,CRITICAL,notification-worker,192.168.1.46,CRITICAL: java.lang.OutOfMemoryError: Java heap space exceeded in worker-thread-04
+530,2026-03-10 13:53:18,INFO,order-processor,192.168.1.58,HTTP GET /api/v1/users/3375 returned 200 OK duration=83ms
+531,2026-03-10 13:53:59,INFO,user-api,10.0.4.112,HTTP GET /api/v1/users/4935 returned 200 OK duration=67ms
+532,2026-03-10 13:54:08,INFO,analytics-pipeline,192.168.1.55,HTTP POST /api/v1/checkout completed with status 201 Created
+533,2026-03-10 13:55:02,WARNING,user-api,192.168.1.40,Disk usage on volume /var/data reached 94% threshold
+534,2026-03-10 13:56:17,WARNING,auth-service,192.168.1.16,Deprecated API endpoint /api/v0/profile accessed by client v1.4
+535,2026-03-10 13:56:47,INFO,inventory-db,10.0.4.124,Order #ORD-1320 successfully placed and confirmed
+536,2026-03-10 13:57:07,INFO,auth-service,192.168.1.58,HTTP POST /api/v1/checkout completed with status 201 Created
+537,2026-03-10 13:57:44,DEBUG,cache-cluster,192.168.1.10,"Garbage collection cycle completed in 14ms, freed 229MB heap"
+538,2026-03-10 13:58:27,INFO,cache-cluster,192.168.1.72,Scheduled billing report job started for tenant_8708
+539,2026-03-10 13:58:40,INFO,order-processor,10.0.4.125,HTTP POST /api/v1/checkout completed with status 201 Created
+540,2026-03-10 13:59:12,INFO,cache-cluster,10.0.4.109,Cache warmup completed: 1186 keys loaded into Redis
+541,2026-03-10 14:00:17,INFO,auth-service,192.168.1.81,Scheduled billing report job started for tenant_7401
+542,2026-03-10 14:00:53,WARNING,auth-service,10.0.4.147,Connection pool acquiring latency spiked to 482ms (>200ms)
+543,2026-03-10 14:02:07,INFO,user-api,10.0.4.117,HTTP POST /api/v1/checkout completed with status 201 Created
+544,2026-03-10 14:03:09,INFO,auth-service,192.168.1.72,Processed batch of 62 message queue events
+545,2026-03-10 14:03:35,DEBUG,auth-service,10.0.4.149,"Garbage collection cycle completed in 45ms, freed 460MB heap"
+546,2026-03-10 14:04:34,INFO,payment-gateway,10.0.4.131,Payment token generated successfully via Stripe gateway
+547,2026-03-10 14:04:42,INFO,cache-cluster,192.168.1.68,User authentication succeeded for username='usr_989' from IP=192.168.1.68
+548,2026-03-10 14:04:56,ERROR,inventory-db,192.168.1.83,ERROR: gRPC call to 'user-profile-grpc:9090' exceeded deadline (5000ms)
+549,2026-03-10 14:05:58,INFO,notification-worker,10.0.4.105,HTTP GET /api/v1/users/6481 returned 200 OK duration=187ms
+550,2026-03-10 14:06:03,WARNING,payment-gateway,10.0.4.107,Disk usage on volume /var/data reached 84% threshold
+551,2026-03-10 14:06:46,INFO,payment-gateway,10.0.4.102,Service discovery synced 12 healthy replica endpoints
+552,2026-03-10 14:06:54,DEBUG,order-processor,192.168.1.70,"Garbage collection cycle completed in 30ms, freed 471MB heap"
+553,2026-03-10 14:07:17,ERROR,cache-cluster,192.168.1.48,ERROR: Connection refused: could not connect to PostgreSQL primary host '10.0.4.12:5432'
+554,2026-03-10 14:07:40,INFO,auth-service,192.168.1.25,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+555,2026-03-10 14:08:24,INFO,cache-cluster,192.168.1.36,HTTP POST /api/v1/checkout completed with status 201 Created
+556,2026-03-10 14:09:01,INFO,payment-gateway,192.168.1.34,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+557,2026-03-10 14:10:05,INFO,payment-gateway,10.0.4.107,User authentication succeeded for username='usr_4207' from IP=10.0.4.107
+558,2026-03-10 14:11:12,INFO,cache-cluster,10.0.4.146,Processed batch of 337 message queue events
+559,2026-03-10 14:11:41,DEBUG,analytics-pipeline,192.168.1.50,Connection ping acknowledged by worker-5 latency=4ms
+560,2026-03-10 14:12:32,ERROR,cache-cluster,10.0.4.128,ERROR: Authentication failed: Invalid JWT signature for token header
+561,2026-03-10 14:13:08,WARNING,inventory-db,10.0.4.125,Memory consumption near warning threshold (78% of 8GB container limit)
+562,2026-03-10 14:14:14,INFO,analytics-pipeline,192.168.1.69,Cache warmup completed: 459 keys loaded into Redis
+563,2026-03-10 14:14:29,ERROR,user-api,10.0.4.132,ERROR: Permission denied: User 301 does not hold required role 'BILLING_MANAGER'
+564,2026-03-10 14:15:07,WARNING,payment-gateway,10.0.4.118,Disk usage on volume /var/data reached 82% threshold
+565,2026-03-10 14:16:22,WARNING,analytics-pipeline,192.168.1.43,High CPU utilization alert: node-worker-4 at 93%
+566,2026-03-10 14:16:44,INFO,payment-gateway,192.168.1.69,HTTP POST /api/v1/checkout completed with status 201 Created
+567,2026-03-10 14:17:10,INFO,order-processor,10.0.4.121,Order #ORD-9379 successfully placed and confirmed
+568,2026-03-10 14:18:16,INFO,cache-cluster,10.0.4.145,Service discovery synced 12 healthy replica endpoints
+569,2026-03-10 14:18:50,DEBUG,inventory-db,192.168.1.15,Keep-alive heartbeat sent to cluster coordinator node-1
+570,2026-03-10 14:19:36,ERROR,user-api,192.168.1.23,ERROR: HTTP 404 Resource Not Found for URI: /api/v2/legacy-webhook
+571,2026-03-10 14:20:50,INFO,order-processor,192.168.1.82,Payment token generated successfully via Stripe gateway
+572,2026-03-10 14:22:01,ERROR,notification-worker,192.168.1.42,ERROR: Permission denied: User 515 does not hold required role 'BILLING_MANAGER'
+573,2026-03-10 14:22:51,DEBUG,cache-cluster,10.0.4.129,Payload serialized with ProtocolBuffers size=1929 bytes
+574,2026-03-10 14:23:17,DEBUG,payment-gateway,192.168.1.39,Keep-alive heartbeat sent to cluster coordinator node-2
+575,2026-03-10 14:23:37,INFO,inventory-db,10.0.4.109,Scheduled billing report job started for tenant_1956
+576,2026-03-10 14:24:43,DEBUG,order-processor,192.168.1.36,Payload serialized with ProtocolBuffers size=2477 bytes
+577,2026-03-10 14:25:08,ERROR,auth-service,192.168.1.27,ERROR: Authentication failed: Invalid JWT signature for token header
+578,2026-03-10 14:25:46,DEBUG,order-processor,10.0.4.143,Payload serialized with ProtocolBuffers size=3726 bytes
+579,2026-03-10 14:26:27,INFO,payment-gateway,10.0.4.146,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+580,2026-03-10 14:27:00,DEBUG,notification-worker,10.0.4.131,Connection ping acknowledged by worker-6 latency=4ms
+581,2026-03-10 14:27:38,CRITICAL,cache-cluster,192.168.1.31,CRITICAL: java.lang.OutOfMemoryError: Java heap space exceeded in worker-thread-04
+582,2026-03-10 14:28:12,INFO,notification-worker,192.168.1.58,HTTP GET /api/v1/users/3415 returned 200 OK duration=148ms
+583,2026-03-10 14:29:10,DEBUG,order-processor,10.0.4.130,"Garbage collection cycle completed in 44ms, freed 371MB heap"
+584,2026-03-10 14:30:23,INFO,payment-gateway,192.168.1.74,Order #ORD-9987 successfully placed and confirmed
+585,2026-03-10 14:31:23,INFO,notification-worker,192.168.1.76,HTTP GET /api/v1/users/8780 returned 200 OK duration=124ms
+586,2026-03-10 14:32:16,INFO,payment-gateway,192.168.1.54,Cache warmup completed: 271 keys loaded into Redis
+587,2026-03-10 14:32:57,INFO,notification-worker,10.0.4.101,HTTP GET /api/v1/users/216 returned 200 OK duration=162ms
+588,2026-03-10 14:34:08,WARNING,notification-worker,192.168.1.10,Connection pool acquiring latency spiked to 991ms (>200ms)
+589,2026-03-10 14:35:07,INFO,user-api,10.0.4.108,HTTP POST /api/v1/checkout completed with status 201 Created
+590,2026-03-10 14:35:47,WARNING,notification-worker,10.0.4.112,Memory consumption near warning threshold (78% of 8GB container limit)
+591,2026-03-10 14:36:24,WARNING,cache-cluster,192.168.1.49,Memory consumption near warning threshold (78% of 8GB container limit)
+592,2026-03-10 14:36:49,DEBUG,inventory-db,192.168.1.22,Keep-alive heartbeat sent to cluster coordinator node-6
+593,2026-03-10 14:37:00,CRITICAL,notification-worker,192.168.1.30,FATAL: PostgreSQL connection pool exhausted (max_connections=100) at db-primary:5432
+594,2026-03-10 14:37:23,INFO,notification-worker,192.168.1.70,Cache warmup completed: 1347 keys loaded into Redis
+595,2026-03-10 14:37:32,ERROR,notification-worker,10.0.4.117,ERROR: SocketTimeoutException: Read timed out during batch data sync
+596,2026-03-10 14:37:44,DEBUG,order-processor,10.0.4.146,Payload serialized with ProtocolBuffers size=3940 bytes
+597,2026-03-10 14:38:55,INFO,inventory-db,192.168.1.46,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+598,2026-03-10 14:39:21,INFO,auth-service,10.0.4.111,HTTP GET /api/v1/users/2679 returned 200 OK duration=37ms
+599,2026-03-10 14:40:11,INFO,notification-worker,10.0.4.110,Processed batch of 397 message queue events
+600,2026-03-10 14:40:27,WARNING,user-api,192.168.1.80,Connection pool acquiring latency spiked to 816ms (>200ms)
+601,2026-03-10 14:41:30,DEBUG,notification-worker,10.0.4.144,Keep-alive heartbeat sent to cluster coordinator node-1
+602,2026-03-10 14:41:44,INFO,user-api,192.168.1.74,User authentication succeeded for username='usr_8509' from IP=192.168.1.74
+603,2026-03-10 14:42:21,CRITICAL,analytics-pipeline,10.0.4.113,CRITICAL: OutOfMemory: Failed to allocate 512MB contiguous block for image buffer
+604,2026-03-10 14:42:57,ERROR,cache-cluster,10.0.4.121,ERROR: gRPC call to 'user-profile-grpc:9090' exceeded deadline (5000ms)
+605,2026-03-10 14:43:05,INFO,payment-gateway,192.168.1.71,Payment token generated successfully via Stripe gateway
+606,2026-03-10 14:43:50,DEBUG,cache-cluster,192.168.1.62,Executing query cache lookup for key 'user_session_817'
+607,2026-03-10 14:44:46,INFO,cache-cluster,10.0.4.111,Order #ORD-7907 successfully placed and confirmed
+608,2026-03-10 14:45:25,DEBUG,inventory-db,192.168.1.33,"Garbage collection cycle completed in 20ms, freed 510MB heap"
+609,2026-03-10 14:45:59,ERROR,inventory-db,192.168.1.35,ERROR: HTTP 502 Bad Gateway: Upstream payment-gateway timed out after 15000ms
+610,2026-03-10 14:46:17,WARNING,payment-gateway,192.168.1.25,JWT signature will expire in under 5 minutes for user_8901
+611,2026-03-10 14:47:09,DEBUG,cache-cluster,10.0.4.104,Connection ping acknowledged by worker-2 latency=4ms
+612,2026-03-10 14:48:19,INFO,notification-worker,192.168.1.45,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+613,2026-03-10 14:49:25,DEBUG,auth-service,10.0.4.145,Payload serialized with ProtocolBuffers size=2988 bytes
+614,2026-03-10 14:50:36,WARNING,cache-cluster,192.168.1.68,Disk usage on volume /var/data reached 88% threshold
+615,2026-03-10 14:51:27,INFO,user-api,10.0.4.103,Cache warmup completed: 1355 keys loaded into Redis
+616,2026-03-10 14:52:15,DEBUG,order-processor,192.168.1.56,"Garbage collection cycle completed in 28ms, freed 250MB heap"
+617,2026-03-10 14:53:17,ERROR,order-processor,192.168.1.33,ERROR: Authentication failed: Invalid JWT signature for token header
+618,2026-03-10 14:53:56,DEBUG,inventory-db,10.0.4.127,Payload serialized with ProtocolBuffers size=740 bytes
+619,2026-03-10 14:55:01,INFO,auth-service,10.0.4.128,Service discovery synced 12 healthy replica endpoints
+620,2026-03-10 14:56:14,WARNING,cache-cluster,10.0.4.117,Rate limit threshold (80%) approached for client API key 'ak_live_2621'
+621,2026-03-10 14:56:39,ERROR,inventory-db,192.168.1.17,ERROR: Connection timed out after 30000ms connecting to redis://cache-node-03:6379
+622,2026-03-10 14:57:41,INFO,cache-cluster,10.0.4.120,Scheduled billing report job started for tenant_9280
+623,2026-03-10 14:58:30,INFO,notification-worker,192.168.1.12,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+624,2026-03-10 14:59:43,INFO,user-api,192.168.1.32,HTTP POST /api/v1/checkout completed with status 201 Created
+625,2026-03-10 14:59:58,DEBUG,user-api,192.168.1.58,"Garbage collection cycle completed in 15ms, freed 391MB heap"
+626,2026-03-10 15:00:54,INFO,payment-gateway,10.0.4.133,Scheduled billing report job started for tenant_3839
+627,2026-03-10 15:01:36,DEBUG,user-api,10.0.4.115,Payload serialized with ProtocolBuffers size=3191 bytes
+628,2026-03-10 15:02:47,INFO,analytics-pipeline,10.0.4.148,Order #ORD-478 successfully placed and confirmed
+629,2026-03-10 15:03:24,INFO,payment-gateway,10.0.4.145,Payment token generated successfully via Stripe gateway
+630,2026-03-10 15:04:39,WARNING,auth-service,192.168.1.16,Slow SQL query detected (787ms): SELECT * FROM orders WHERE status='PENDING'
+631,2026-03-10 15:05:33,INFO,inventory-db,192.168.1.49,Cache warmup completed: 368 keys loaded into Redis
+632,2026-03-10 15:06:45,INFO,order-processor,10.0.4.132,Scheduled billing report job started for tenant_5428
+633,2026-03-10 15:07:59,DEBUG,user-api,10.0.4.144,"Garbage collection cycle completed in 39ms, freed 154MB heap"
+634,2026-03-10 15:09:02,DEBUG,notification-worker,10.0.4.105,Evaluating feature flag 'fast_checkout_v2' for tenant_646: ENABLED
+635,2026-03-10 15:09:36,INFO,payment-gateway,10.0.4.128,Scheduled billing report job started for tenant_6853
+636,2026-03-10 15:09:42,INFO,order-processor,192.168.1.10,Service discovery synced 12 healthy replica endpoints
+637,2026-03-10 15:10:48,WARNING,auth-service,192.168.1.48,Rate limit threshold (80%) approached for client API key 'ak_live_4089'
+638,2026-03-10 15:11:45,INFO,notification-worker,10.0.4.137,Order #ORD-6485 successfully placed and confirmed
+639,2026-03-10 15:12:23,DEBUG,notification-worker,192.168.1.20,Connection ping acknowledged by worker-6 latency=4ms
+640,2026-03-10 15:13:02,INFO,user-api,192.168.1.46,User authentication succeeded for username='usr_3088' from IP=192.168.1.46
+641,2026-03-10 15:14:05,INFO,analytics-pipeline,10.0.4.104,TLS 1.3 handshake established cipher=ECDHE-RSA-AES128-GCM-SHA256
+642,2026-03-10 15:14:29,INFO,auth-service,192.168.1.16,User authentication succeeded for username='usr_4722' from IP=192.168.1.16
+643,2026-03-10 15:14:35,INFO,payment-gateway,192.168.1.39,Service discovery synced 12 healthy replica endpoints
+644,2026-03-10 15:15:43,WARNING,analytics-pipeline,192.168.1.57,Disk usage on volume /var/data reached 92% threshold
+645,2026-03-10 15:16:22,INFO,notification-worker,10.0.4.124,Service discovery synced 12 healthy replica endpoints
+646,2026-03-10 15:17:15,INFO,auth-service,10.0.4.131,Processed batch of 246 message queue events
+647,2026-03-10 15:17:24,WARNING,analytics-pipeline,192.168.1.35,Slow SQL query detected (1218ms): SELECT * FROM orders WHERE status='PENDING'
+648,2026-03-10 15:18:10,WARNING,auth-service,192.168.1.30,Slow SQL query detected (1235ms): SELECT * FROM orders WHERE status='PENDING'
+649,2026-03-10 15:19:01,ERROR,auth-service,10.0.4.138,ERROR: Authentication failed: Invalid JWT signature for token header
+650,2026-03-10 15:20:01,INFO,auth-service,192.168.1.51,Cache warmup completed: 597 keys loaded into Redis
